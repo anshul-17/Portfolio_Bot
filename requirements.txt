@@ -11,3 +11,4 @@ pypdf
 python-dotenv
 sentence-transformers
 torchvision
+protobuf==3.20.3
