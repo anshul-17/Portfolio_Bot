@@ -16,7 +16,7 @@ load_dotenv()
 
 
 def process_pdf():
-    loader = PyPDFLoader('CV.pdf')
+    loader = PyPDFLoader('Anshul Kumar.pdf')
     data = loader.load()
 
     text_splitter = RecursiveCharacterTextSplitter(
